@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confronto libri scolastici</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>Confronto libri scolastici</h1>
+  </header>
+  <main>
+    <form id="search">
+      <label for="isbn">Inserisci l'ISBN da cercare</label>
+      <input
+        type="text"
+        id="isbn"
+        name="isbn"
+        placeholder="ISBN"
+        minlength="13"
+        maxlength="13">
+    </form>
+    <h2>Siti utilizzati</h2>
+    <div id="websites"></div>
+  </main>
+  <footer>
+    <div id="disclaimer">
+      <small>
+        <b>ATTENZIONE:</b>
+        Questo sito è stato realizzato per scopi puramente personali e non mi
+        assumo la responsabilità per eventuali errori o problemi con i siti elencati.
+        <br>
+        I siti elencati rispecchiano puramente quelli trovati in rete e non sono
+        stati necessariamente verificati per la sicurezza e/o affidabilità.
+        <br>
+        L'acquisto presso uno di questi siti è a tuo rischio e pericolo.
+      </small>
+    </div>
+    <p>
+      &copy; 2022
+      -
+      <a href="https://alexsandri.com">Alex Sandri</a>
+    </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

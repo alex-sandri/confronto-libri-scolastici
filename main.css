@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+#websites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.website {
+  width: max-content;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.website div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.website img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.website .title {
+  margin: 0;
+}
+
+#disclaimer {
+  color: black;
+  background-color: yellow;
+
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
